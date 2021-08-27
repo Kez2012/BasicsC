@@ -12,5 +12,6 @@ int main()
       sum = sum+ a;
    }
    printf("The sum is %d", sum);
+   printf("GitHub works on Desktop");
    return 0;
 }

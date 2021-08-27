@@ -20,15 +20,14 @@ int main(){
     int m, i,j,count = 0;
     printf("Enter the number of primes: ");
     scanf("%d",&m);
-    for(i =0; i<m; i++){
-        //for (j=1; j <)
+    int p = 1;  //prime variable
+    printf("The primes are: ");
+    while(count < m){
+        if (isPrime(p)){
+            count += 1;
+            printf("%d ", p);
+        } 
+        p += 1;
+        
     }
-    if (isPrime(m)){
-        printf("The number is prime");
-    }
-    else{
-        printf("The number is not prime");
-    }
-    
 }
-
